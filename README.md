@@ -2,7 +2,7 @@
 
 Install [swift-format](https://github.com/apple/swift-format):
 
-```
+```shell
 brew install swift-format
 ```
 
