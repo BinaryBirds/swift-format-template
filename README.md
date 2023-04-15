@@ -1,8 +1,13 @@
 # Swift format template
 
-## Usage
+Install [swift-format](https://github.com/apple/swift-format):
 
-Simply add this to your `Makefile`:
+```
+brew install swift-format
+```
+
+
+Add these lines to your `Makefile`:
 
 ```makefile
 format:
