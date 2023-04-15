@@ -23,6 +23,15 @@ lint:
 	rm -f ./swift-format.json
 ```
 
+
+Alternative one-liner integration: 
+
+```shell
+echo "\n\n# swift-format commands\n" >> ./Makefile && curl -s https://raw.githubusercontent.com/BinaryBirds/swift-format-template/main/Makefile >> ./Makefile
+```
+
+
+
 Run: 
 
 ```shell

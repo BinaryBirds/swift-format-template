@@ -9,3 +9,4 @@ lint:
 	swift-format lint --configuration swift-format.json -r ./Sources && \
 	swift-format lint --configuration swift-format.json -r ./Tests && \
 	rm -f ./swift-format.json
+
