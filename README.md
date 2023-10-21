@@ -6,6 +6,11 @@ Install [swift-format](https://github.com/apple/swift-format):
 brew install swift-format
 ```
 
+Create a `.swift-format` using this template.
+
+```shell
+curl -s https://raw.githubusercontent.com/BinaryBirds/swift-format-template/main/.swift-format > .swift-format
+```
 
 Add these lines to your `Makefile`:
 
@@ -18,15 +23,13 @@ lint:
 ```
 
 
-Alternative one-liner integration: 
+One-liner integration: 
 
 ```shell
-curl -s https://raw.githubusercontent.com/BinaryBirds/swift-format-template/main/.swift-format >> .swift-format && curl -s https://raw.githubusercontent.com/BinaryBirds/swift-format-template/main/Makefile >> ./Makefile
+curl -s https://raw.githubusercontent.com/BinaryBirds/swift-format-template/main/.swift-format > .swift-format && curl -s https://raw.githubusercontent.com/BinaryBirds/swift-format-template/main/Makefile >> ./Makefile
 ```
 
-
-
-Run: 
+Usage: 
 
 ```shell
 make format
