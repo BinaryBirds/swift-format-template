@@ -21,7 +21,7 @@ lint:
 Alternative one-liner integration: 
 
 ```shell
-echo "\n\n# swift-format commands\n" >> ./Makefile && curl -s https://raw.githubusercontent.com/BinaryBirds/swift-format-template/main/Makefile >> ./Makefile
+curl -s https://raw.githubusercontent.com/BinaryBirds/swift-format-template/main/.swift-format >> .swift-format && curl -s https://raw.githubusercontent.com/BinaryBirds/swift-format-template/main/Makefile >> ./Makefile
 ```
 
 
